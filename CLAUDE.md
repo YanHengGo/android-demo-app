@@ -32,4 +32,4 @@ Single-Activity Compose app. Entry point is `MainActivity` (`app/src/main/java/c
 
 ## Local Config
 
-`local.properties` is checked in (contains `sdk.dir`). It is machine-specific; do not edit it unless intentionally repointing the Android SDK location.
+`local.properties` (contains `sdk.dir`) is git-ignored and machine-specific. Android Studio regenerates it on first sync — don't commit it.
