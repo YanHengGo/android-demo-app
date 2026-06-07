@@ -3,7 +3,17 @@
     "allow": [
       "Bash(git init *)",
       "Bash(git branch *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(./gradlew :app:assembleDebug)",
+      "Bash(./gradlew :app:dependencies --configuration debugRuntimeClasspath)",
+      "Bash(curl -s 'https://maven.google.com/androidx/compose/compose-bom/group-index.xml')",
+      "Bash(curl -sL 'https://maven.google.com/web/index.html?q=compose-bom' -o /tmp/bom.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL 'https://repo1.maven.org/maven2/androidx/compose/compose-bom/maven-metadata.xml')",
+      "Bash(curl -sL 'https://dl.google.com/android/maven2/androidx/compose/compose-bom/maven-metadata.xml')"
     ]
   }
 }
